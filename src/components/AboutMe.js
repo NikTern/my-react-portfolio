@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <div className="text-center">
+    <div className="text-center px-3">
       <p></p>
       <h2>About Me</h2>
       <img src={process.env.PUBLIC_URL + '/profile-pic.png'} alt="Nik Ternezis Profile Photo" className="mx-auto" width="100" height="auto" />
