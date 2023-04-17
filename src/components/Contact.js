@@ -14,14 +14,14 @@ function Contact(){
       const handleSubmit = (e) => {
         e.preventDefault();
         // Handle form submission
-        console.log(formData);
+        console.log(`backend handles form data: ${formData}`);
       };
       
     return(
         <section className='mx-4'>
           <p></p>
-        <h2>Contact</h2>
-        <form onSubmit={handleSubmit}>
+        <h2 className='text-center'>Contact</h2>
+        <form className='d-flex justify-content-evenly align-items-center' onSubmit={handleSubmit}>
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -48,7 +48,7 @@ function Contact(){
             onChange={handleChange}
             required
           />
-          <button type="submit">Submit</button>
+          <button className='h-50' type="submit">Submit</button>
         </form>
       </section>
     )

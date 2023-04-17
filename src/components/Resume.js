@@ -30,8 +30,8 @@ function Resume(){
     return(
         <section className='mx-4'>
             <p></p>
-            <h2>Resume</h2>
-            <a href={process.env.PUBLIC_URL + "Nikolas-Ternezis-Resume.pdf"} download="NT-Resume.pdf">
+            <h2 className='text-center'>Resume</h2>
+            <a className='text-decoration-none fw-bold' href={process.env.PUBLIC_URL + "Nikolas-Ternezis-Resume.pdf"} download="NT-Resume.pdf" >
             Download My Resume
             </a>
             <p></p>
