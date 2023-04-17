@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Navigation(onSectionChange){
+function Navigation({ onSectionChange }){
     const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
     const [selectedSection, setSelectedSection] = useState(sections[0]);
     

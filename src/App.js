@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
-import About from './components/About';
+import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Header onSectionChange={handleSectionChange} />
-      {selectedSection === 'About Me' && <About />}
+      {selectedSection === 'About Me' && <AboutMe />}
       {selectedSection === 'Portfolio' && <Portfolio />}
       {selectedSection === 'Contact' && <Contact />}
       {selectedSection === 'Resume' && <Resume />}
