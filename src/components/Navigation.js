@@ -10,17 +10,18 @@ function Navigation({ onSectionChange }){
     };
     
     return (
-    <nav>
-        <ul>
+    <nav className='d-flex align-items-center justify-content-center m-0 p-0'>
+        <ul className='d-flex align-items-center justify-content-center m-0 p-0 flex-wrap'>
         {sections.map((section) => (
-            <li key={section}>
-            <button
-                className={selectedSection === section ? 'active' : ''}
+            <ul key={section}>
+            <button type="button" data-bs-toggle="button"
+                className={`btn btn-outline-primary ${selectedSection === section ? 'active' : ''}`}
+                aria-pressed={selectedSection === section ? 'true' : 'false'}
                 onClick={() => handleClick(section)}
             >
                 {section}
             </button>
-            </li>
+            </ul>
         ))}
         </ul>
     </nav>
