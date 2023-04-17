@@ -18,7 +18,7 @@ function Portfolio(){
           },
           {
             title: 'Social Media API',
-            image: `${process.env.PUBLIC_URL}/project3.jpg`,
+            image: `${process.env.PUBLIC_URL}/project3.png`,
             deployedUrl: '',
             repoUrl: 'https://github.com/NikTern/Social-Media-API',
           },

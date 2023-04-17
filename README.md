@@ -6,10 +6,6 @@ A responsive and dynamically generated React application for viewing my portfoli
 
 This project is a single-page React application that serves as a web developer's portfolio. The portfolio showcases my work and provides a way for potential employers to assess my skills and experience. The application contains sections for About Me, Portfolio, Contact, and Resume. The Portfolio section displays six projects with links to deployed applications and corresponding GitHub repositories.
 
-![IndexedDBStorage](./Assets/IndexedDB.png)
-![Manifest](./Assets/manifest.png)
-![ServiceWorker](./Assets/serviceworker.png)
-
 ## Installation
 
 1. Clone the repository to your local machine.
@@ -17,7 +13,7 @@ This project is a single-page React application that serves as a web developer's
 3. Run npm install to install all necessary dependencies.
 4. Once the dependencies are installed, run npm start to start the development server and launch the application in your browser.
 
-Alternatively, the app is deployed on GitHub pages: XXXX 
+Alternatively, the app is deployed on GitHub pages: https://niktern.github.io/my-react-portfolio/ 
 
 ## Usage
 
