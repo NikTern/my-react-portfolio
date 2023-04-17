@@ -18,7 +18,8 @@ function Contact(){
       };
       
     return(
-        <section>
+        <section className='mx-4'>
+          <p></p>
         <h2>Contact</h2>
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">Name:</label>

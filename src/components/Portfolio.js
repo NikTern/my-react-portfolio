@@ -32,6 +32,7 @@ function Portfolio(){
     
     return (
         <section>
+            <p></p>
             <h2>Portfolio</h2>
             <div>
                 {projects.map((project) => (

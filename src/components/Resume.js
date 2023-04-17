@@ -7,15 +7,34 @@ function Resume(){
         'CSS',
         'React',
         'Node.js',
-        // Add more proficiencies here
+        'MySQL',
+        'MongoDB',
+        'Express.js',
+        'RESTful APIs',
+        'GraphQL',
+        'Bootstrap',
+        'Sequelize',
+        'Mongoose',
+        'Handlebars.js',
+        'Jest',
+        'React Testing Library',
+        'Git',
+        'GitHub',
+        'Heroku',
+        'jQuery',
+        'serverside APIs',
+
+
       ];
 
     return(
-        <section>
+        <section className='mx-4'>
+            <p></p>
             <h2>Resume</h2>
-            <a href="your-resume.pdf" download="Your-Name-Resume.pdf">
+            <a href={process.env.PUBLIC_URL + "Nikolas-Ternezis-Resume.pdf"} download="NT-Resume.pdf">
             Download My Resume
             </a>
+            <p></p>
             <h3>Proficiencies</h3>
             <ul>
             {proficiencies.map((proficiency) => (
