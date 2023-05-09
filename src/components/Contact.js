@@ -40,7 +40,7 @@ function Contact() {
       <p></p>
       <h2 className='text-center'>Contact</h2>
       <form className='d-flex justify-content-start align-items-center flex-wrap' onSubmit={handleSubmit}>
-        <div className="w-100"><label htmlFor="name">Name:</label>
+        <div className="w-100"><label className='pr-2' htmlFor="name">Name:</label>
         <input
           type="text"
           id="name"

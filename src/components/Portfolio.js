@@ -17,10 +17,10 @@ function Portfolio(){
             repoUrl: 'https://github.com/NikTern/-Just-Another-Text-Editor-',
           },
           {
-            title: 'Social Media API',
+            title: 'Zendo',
             image: `${process.env.PUBLIC_URL}/project3.png`,
             deployedUrl: '',
-            repoUrl: 'https://github.com/NikTern/Social-Media-API',
+            repoUrl: 'https://github.com/NikTern/Zendo',
           },
           {
             title: 'CMS App',
