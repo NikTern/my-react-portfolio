@@ -19,7 +19,7 @@ function Portfolio(){
           {
             title: 'Zendo',
             image: `${process.env.PUBLIC_URL}/project3.png`,
-            deployedUrl: 'zendo.herokuapp.com',
+            deployedUrl: 'https://zendo.herokuapp.com',
             repoUrl: 'https://github.com/NikTern/Zendo',
           },
           {
